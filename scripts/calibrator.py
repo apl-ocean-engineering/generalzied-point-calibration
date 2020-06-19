@@ -43,9 +43,9 @@ class Calibrator:
                 x = float(line.split(',')[i])
                 y = float(line.split(',')[i+1])
 
-                # Not sure why the line ends with nan...
+                # Not sure why the line starts/ends with nan...
                 if np.isnan(x) or np.isnan(y):
-                    break
+                    continue
                 img_points.append((x, y))
 
             points.append(np.float32(img_points))
