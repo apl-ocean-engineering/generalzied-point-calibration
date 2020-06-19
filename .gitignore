@@ -1,0 +1,4 @@
+scripts/calibration.py
+scripts/*.pyc
+data/images/*
+!data/images/info.txt
