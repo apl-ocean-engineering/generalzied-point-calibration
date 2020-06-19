@@ -15,3 +15,6 @@ Calibration scripts to help calibrate cameras without checkerboard pattern
 
 ## Output data
 If run with --save, K, d, R, t will be saved to output/
+
+## Running
+scripts/calibrator.py will first calculate intrinsic calibration, and then estimate [R,t]
